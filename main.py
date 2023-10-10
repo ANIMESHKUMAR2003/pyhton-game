@@ -27,7 +27,7 @@ def game(comp, you):
         if you=='s':
             return True
         elif you=='p':
-            return False
+            return False;
 
 print("Comp Turn: Stone(s) paper(p) or scissors(sc)?")
 randNo = random.randint(1, 3) 
